@@ -31,6 +31,7 @@ private func inShellAllowlist(_ codeUnit: UInt8) -> Bool {
              UInt8(ascii: "@"),
              UInt8(ascii: "%"),
              UInt8(ascii: "+"),
+             UInt8(ascii: "|"),
              UInt8(ascii: "="),
              UInt8(ascii: "."),
              UInt8(ascii: ","):
